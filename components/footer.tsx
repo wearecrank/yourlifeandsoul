@@ -1,0 +1,119 @@
+import { WhatsAppIcon } from "@/components/whatsapp-icon"
+
+const WHATSAPP_URL = "https://wa.me/447843153456?text=Hello%20I%20am%20interested%20in%20counselling%20sessions"
+
+export function Footer() {
+  return (
+    <footer className="border-t border-border bg-background py-12">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
+          <div className="text-center md:text-left">
+            <p className="font-serif text-lg font-semibold text-foreground">
+              Your Life And Soul
+            </p>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Integrative Counselling for Children, Teens & Adults
+            </p>
+          </div>
+
+          <nav aria-label="Footer navigation">
+            <ul className="flex flex-wrap items-center justify-center gap-6">
+              <li>
+                <a
+                  href="#home"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  Services
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#pricing"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#faq"
+                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                >
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        {/* Local pages */}
+        <div className="mt-8 border-t border-border pt-8">
+          <p className="mb-4 text-center text-sm font-semibold text-foreground">
+            Local Counselling Services
+          </p>
+          <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+            <li>
+              <a
+                href="/counselling-addlestone"
+                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+              >
+                Counselling in Addlestone
+              </a>
+            </li>
+            <li>
+              <a
+                href="/counselling-weybridge"
+                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+              >
+                Counselling in Weybridge
+              </a>
+            </li>
+            <li>
+              <a
+                href="/counselling-woking"
+                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+              >
+                Counselling in Woking
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* WhatsApp CTA */}
+        <div className="mt-8 flex justify-center">
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+          >
+            <WhatsAppIcon className="h-4 w-4" />
+            Get in Touch on WhatsApp
+          </a>
+        </div>
+
+        <div className="mt-8 border-t border-border pt-8 text-center">
+          <p className="text-sm text-muted-foreground">
+            {`\u00A9 ${new Date().getFullYear()} Your Life and Soul. All rights reserved.`}
+          </p>
+        </div>
+      </div>
+    </footer>
+  )
+}
