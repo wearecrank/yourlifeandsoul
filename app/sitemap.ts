@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 const baseUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL || "https://www.yourlifeandsoul.com"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.yourlifeandsoul.co.uk"
 ).replace(/\/$/, "");
 
 export default function sitemap(): MetadataRoute.Sitemap {
