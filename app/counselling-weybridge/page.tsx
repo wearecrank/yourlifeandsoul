@@ -12,8 +12,8 @@ export default function WeybridgePage() {
   return (
     <LocalLandingPage
       location="Weybridge"
-      localImage="/images/weybridge.jpg"
-      localImageAlt="Serene view of the River Thames at Weybridge, Surrey, reflecting the calm and peaceful setting for integrative counselling"
+      localImage="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/High_Street%2C_Weybridge_-_geograph.org.uk_-_903313.jpg/640px-High_Street%2C_Weybridge_-_geograph.org.uk_-_903313.jpg"
+      localImageAlt="High Street, Weybridge, Surrey, showing the Edwardian terrace of shops and offices with the parish church spire in the distance. Photo by Colin Smith, CC BY-SA 2.0"
       mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9966.12!2d-0.4571!3d51.3722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876045b8b3e0c3b%3A0x46e17c8c52fa29b2!2sWeybridge!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
       heroIntro="Sometimes life throws challenges at us that feel impossible to manage alone. Whether it's anxiety keeping you awake at night, relationship struggles, or concerns about your child's wellbeing, reaching out for support is a brave and important step."
       lindsayIntro="I'm Lindsay, a BACP-registered integrative counsellor working with individuals and families across Weybridge and the surrounding Surrey area. My practice is easily accessible from Weybridge town centre, Thames Street, and the surrounding villages. Whether you prefer face-to-face sessions or the convenience of online counselling, I'm here to provide compassionate, professional support."
@@ -39,6 +39,15 @@ export default function WeybridgePage() {
             "Perhaps you've always been the person others rely on, but lately you've been wondering who's there for you. Or maybe anxiety has crept up so gradually that you didn't notice until it was affecting your sleep, your relationships, your work performance.",
             "I support adults dealing with anxiety disorders, depression, work-related stress and burnout, relationship difficulties, anger management, adverse childhood experiences, and life transitions like divorce, redundancy, or bereavement.",
             "Whatever brings you to counselling, we'll create space to unpick what's happening beneath the surface. Many clients describe finally feeling heard -- not just listened to politely, but truly understood. From that foundation, we can work towards meaningful change.",
+          ],
+        },
+        {
+          title: "Neurodiversity Support",
+          content: [
+            "Neurodiversity is a specialism I bring to my work in Weybridge and across Surrey. Whether it's ADHD, autism (ASD), or a suspected diagnosis that hasn't yet been confirmed, I offer counselling support that meets individuals and families where they are.",
+            "Parents of neurodivergent children often carry a significant emotional load -- advocating at school, managing meltdowns, feeling misunderstood by wider family or professionals. I offer a space to process those feelings and develop practical strategies for supporting your child while also taking care of yourself.",
+            "For children and young people, I work to help them understand their neurodiversity in a positive, affirming way. Building self-esteem, developing coping strategies for school and social situations, and helping them communicate their needs are all central to this work.",
+            "Neurodivergent adults -- including those with a late diagnosis of ADHD or autism -- are also very welcome. Understanding how your brain works can be genuinely life-changing, and counselling can help you process a diagnosis, make sense of past experiences, and move forward with greater self-awareness.",
           ],
         },
         {
@@ -98,6 +107,7 @@ export default function WeybridgePage() {
       ]}
       nearbyLocations={[
         { label: "Counselling in Addlestone", href: "/counselling-addlestone" },
+        { label: "Counselling in Chertsey", href: "/counselling-chertsey" },
         { label: "Counselling in Woking", href: "/counselling-woking" },
       ]}
     />

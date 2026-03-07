@@ -12,8 +12,8 @@ export default function AddlestonePage() {
   return (
     <LocalLandingPage
       location="Addlestone"
-      localImage="/images/addlestone.jpg"
-      localImageAlt="Peaceful view of Victory Park in Addlestone, Surrey, a calming green space near our integrative counselling practice"
+      localImage="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Shops_on_Station_Road_-_geograph.org.uk_-_7648705.jpg/1280px-Shops_on_Station_Road_-_geograph.org.uk_-_7648705.jpg"
+      localImageAlt="Shops on Station Road, Addlestone town centre, Surrey. Photo by Des Blenkinsopp, CC BY-SA 2.0"
       mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9968.48!2d-0.4917!3d51.3696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876040c6aa7c101%3A0x22f46f10fa6e4e70!2sAddlestone!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
       heroIntro="Whether you're navigating stress at work, struggling with anxiety, or supporting your child through a difficult period, having someone to talk to can make all the difference."
       lindsayIntro="I'm Lindsay, an integrative counsellor registered with the BACP, and I work with people of all ages -- from children and teenagers to adults. My practice is conveniently located in the heart of Addlestone, making it easy to access whether you're coming from the town centre, Victory Park, or the surrounding areas. I also offer online sessions via video call if that suits you better."
@@ -39,6 +39,15 @@ export default function AddlestonePage() {
             "Adult life doesn't come with a manual, and sometimes we all need support to navigate its complexities. Perhaps you're experiencing anxiety that's affecting your daily life, feeling low or unmotivated, struggling with a relationship, or dealing with a major life transition like redundancy, divorce, or bereavement.",
             "I work with adults facing depression, anxiety, relationship difficulties, work-related stress, attachment issues, and challenges around self-worth. Many clients describe feeling stuck -- knowing something needs to change but not quite sure how to move forward. Counselling offers that clarity and support.",
             "Some people come with a specific issue they want to address; others simply know they're not feeling like themselves. Both are equally valid reasons to seek support. Together, we'll explore what's underneath those feelings and work towards you feeling more grounded, confident, and at ease with yourself.",
+          ],
+        },
+        {
+          title: "Neurodiversity Support",
+          content: [
+            "Neurodiversity is a specialism I'm particularly passionate about. Whether you or your child has received a diagnosis of ADHD or autism (ASD), or you're still seeking answers, counselling can provide vital support at every stage of that journey.",
+            "For parents in Addlestone, navigating a neurodivergent child's needs can feel isolating and exhausting. I offer support to parents to help them understand their child's experience, improve communication, and develop strategies that work for their family's unique dynamic.",
+            "For children and young people, I help them understand and embrace their diagnosis, build confidence in who they are, manage emotional regulation, and navigate the social and academic challenges that can come with being neurodivergent. Building a strong sense of identity and self-worth is central to this work.",
+            "I also support neurodivergent adults who may have received a late diagnosis or are learning to understand themselves through a new lens. It's never too late to explore how your neurodiversity shapes your world -- and to find strategies that help you thrive.",
           ],
         },
         {
@@ -97,6 +106,7 @@ export default function AddlestonePage() {
       ]}
       nearbyLocations={[
         { label: "Counselling in Weybridge", href: "/counselling-weybridge" },
+        { label: "Counselling in Chertsey", href: "/counselling-chertsey" },
         { label: "Counselling in Woking", href: "/counselling-woking" },
       ]}
     />
