@@ -23,6 +23,16 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
+        <div className="mb-6 flex justify-center">
+          <Image
+            src="/images/brand/icon_white_512.png"
+            alt="Your Life And Soul flower logo"
+            width={80}
+            height={80}
+            className="h-20 w-20 object-contain drop-shadow-lg"
+            priority
+          />
+        </div>
         <p className="mb-4 text-sm font-medium tracking-widest uppercase text-secondary/80">
           Your Life And Soul
         </p>

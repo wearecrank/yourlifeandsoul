@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 import { WhatsAppIcon } from "@/components/whatsapp-icon"
 
 const WHATSAPP_URL = "https://wa.me/447843153456?text=Hello%20I%20am%20interested%20in%20counselling%20sessions"
@@ -20,13 +21,15 @@ export function Navigation() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="/" className="flex flex-col">
-          <span className="font-serif text-xl font-semibold tracking-tight text-foreground">
-            Your Life And Soul
-          </span>
-          <span className="text-xs tracking-widest uppercase text-muted-foreground">
-            Integrative Counselling
-          </span>
+        <a href="/" className="flex items-center">
+          <Image
+            src="/images/brand/logo_horizontal_transparent.png"
+            alt="Your Life And Soul — Integrative Counselling"
+            width={200}
+            height={60}
+            className="h-12 w-auto object-contain"
+            priority
+          />
         </a>
 
         {/* Desktop */}
