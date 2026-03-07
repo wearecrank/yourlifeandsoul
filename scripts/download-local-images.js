@@ -1,4 +1,4 @@
-const { writeFileSync } = require("fs")
+const { mkdirSync } = require("fs")
 const { join } = require("path")
 const https = require("https")
 
@@ -21,7 +21,8 @@ const images = [
   },
 ]
 
-const outputDir = join(process.cwd(), "public", "images")
+const outputDir = join("/vercel/share/v0-project", "public", "images")
+mkdirSync(outputDir, { recursive: true })
 
 function download(url, dest) {
   return new Promise((resolve, reject) => {
