@@ -86,6 +86,14 @@ export function Footer() {
             </li>
             <li>
               <a
+                href="/counselling-chertsey"
+                className="text-sm text-muted-foreground transition-colors hover:text-primary"
+              >
+                Counselling in Chertsey
+              </a>
+            </li>
+            <li>
+              <a
                 href="/counselling-woking"
                 className="text-sm text-muted-foreground transition-colors hover:text-primary"
               >
