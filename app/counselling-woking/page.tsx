@@ -99,6 +99,7 @@ export default function WokingPage() {
       nearbyLocations={[
         { label: "Counselling in Addlestone", href: "/counselling-addlestone" },
         { label: "Counselling in Weybridge", href: "/counselling-weybridge" },
+        { label: "Counselling in Chertsey", href: "/counselling-chertsey" },
       ]}
     />
   )

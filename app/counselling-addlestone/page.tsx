@@ -97,6 +97,7 @@ export default function AddlestonePage() {
       ]}
       nearbyLocations={[
         { label: "Counselling in Weybridge", href: "/counselling-weybridge" },
+        { label: "Counselling in Chertsey", href: "/counselling-chertsey" },
         { label: "Counselling in Woking", href: "/counselling-woking" },
       ]}
     />
