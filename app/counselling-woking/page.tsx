@@ -12,8 +12,8 @@ export default function WokingPage() {
   return (
     <LocalLandingPage
       location="Woking"
-      localImage="/images/woking.jpg"
-      localImageAlt="Tranquil view of the Basingstoke Canal near Woking, Surrey, a peaceful setting close to our integrative counselling service"
+      localImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Woking_town_centre_from_the_west.jpg/1280px-Woking_town_centre_from_the_west.jpg"
+      localImageAlt="Woking town centre viewed from the west, looking along the South Western Main Line towards the town skyline. Photo by Mertbiol, CC0 Public Domain"
       mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9958.76!2d-0.5569!3d51.3162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875cf1b33a5b3a5%3A0x4f3f6a488b8e1b3a!2sWoking!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
       heroIntro="When you're carrying emotional weight that feels too heavy to manage alone, counselling can offer the support and perspective you need."
       lindsayIntro="I'm Lindsay, an integrative counsellor registered with the BACP, and I support people from Woking and across Surrey. My practice is based in Addlestone, a short distance from Woking town centre, making it accessible whether you're travelling from the town itself, surrounding villages, or prefer the flexibility of online sessions."
