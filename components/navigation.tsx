@@ -25,9 +25,9 @@ export function Navigation() {
           <Image
             src="/images/brand/logo_horizontal_transparent.png"
             alt="Your Life And Soul — Integrative Counselling"
-            width={200}
-            height={60}
-            className="h-12 w-auto object-contain"
+            width={280}
+            height={84}
+            className="h-16 w-auto object-contain"
             priority
           />
         </a>
