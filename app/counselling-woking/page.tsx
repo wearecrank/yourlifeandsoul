@@ -42,6 +42,15 @@ export default function WokingPage() {
           ],
         },
         {
+          title: "Neurodiversity Support",
+          content: [
+            "Neurodiversity is a key specialism within my practice. I work with children, teenagers, adults, and the families of neurodivergent individuals -- whether they have a formal diagnosis of ADHD or autism (ASD), are awaiting assessment, or simply feel that neurodiversity might explain some of their experiences.",
+            "Parents of neurodivergent children in Woking often tell me they feel exhausted and unheard -- by schools, by healthcare systems, sometimes even by their own support networks. I offer a dedicated space for parents to process the challenges they face, understand their child's world more deeply, and develop strategies that actually work in daily life.",
+            "For young people, I focus on helping them understand and value their neurodivergent identity, navigate the challenges that can arise at school and in social situations, and build the emotional resilience they need to flourish. Children and teenagers who feel understood and accepted are far better equipped to manage the world around them.",
+            "Adults who have received a late diagnosis -- or who are exploring whether ADHD or autism might explain lifelong patterns -- are equally welcome. Counselling can help you reframe your past experiences, understand your strengths, and develop strategies to support your wellbeing going forward.",
+          ],
+        },
+        {
           title: "Pregnancy, Birth, and New Motherhood",
           content: [
             "There's a cultural narrative that pregnancy and new motherhood should be blissful. The reality is often far more complicated, and women who struggle during this time frequently feel isolated and guilty for not experiencing the joy they're \"supposed\" to feel.",

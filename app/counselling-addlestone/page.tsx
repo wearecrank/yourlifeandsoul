@@ -42,6 +42,15 @@ export default function AddlestonePage() {
           ],
         },
         {
+          title: "Neurodiversity Support",
+          content: [
+            "Neurodiversity is a specialism I'm particularly passionate about. Whether you or your child has received a diagnosis of ADHD or autism (ASD), or you're still seeking answers, counselling can provide vital support at every stage of that journey.",
+            "For parents in Addlestone, navigating a neurodivergent child's needs can feel isolating and exhausting. I offer support to parents to help them understand their child's experience, improve communication, and develop strategies that work for their family's unique dynamic.",
+            "For children and young people, I help them understand and embrace their diagnosis, build confidence in who they are, manage emotional regulation, and navigate the social and academic challenges that can come with being neurodivergent. Building a strong sense of identity and self-worth is central to this work.",
+            "I also support neurodivergent adults who may have received a late diagnosis or are learning to understand themselves through a new lens. It's never too late to explore how your neurodiversity shapes your world -- and to find strategies that help you thrive.",
+          ],
+        },
+        {
           title: "Pregnancy, Postnatal Support, and Hyperemesis Gravidarum",
           content: [
             "Pregnancy and the postnatal period can be some of the most challenging times in a woman's life, yet there's often an expectation to feel nothing but joy. The reality is far more complex.",

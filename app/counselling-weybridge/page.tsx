@@ -42,6 +42,15 @@ export default function WeybridgePage() {
           ],
         },
         {
+          title: "Neurodiversity Support",
+          content: [
+            "Neurodiversity is a specialism I bring to my work in Weybridge and across Surrey. Whether it's ADHD, autism (ASD), or a suspected diagnosis that hasn't yet been confirmed, I offer counselling support that meets individuals and families where they are.",
+            "Parents of neurodivergent children often carry a significant emotional load -- advocating at school, managing meltdowns, feeling misunderstood by wider family or professionals. I offer a space to process those feelings and develop practical strategies for supporting your child while also taking care of yourself.",
+            "For children and young people, I work to help them understand their neurodiversity in a positive, affirming way. Building self-esteem, developing coping strategies for school and social situations, and helping them communicate their needs are all central to this work.",
+            "Neurodivergent adults -- including those with a late diagnosis of ADHD or autism -- are also very welcome. Understanding how your brain works can be genuinely life-changing, and counselling can help you process a diagnosis, make sense of past experiences, and move forward with greater self-awareness.",
+          ],
+        },
+        {
           title: "Specialist Pregnancy and Postnatal Support",
           content: [
             "Pregnancy should be a time of joy and anticipation, but for many women, it's complicated by physical illness, mental health struggles, or traumatic experiences. There's immense pressure to feel grateful and glowing, which makes it even harder when you're actually suffering.",

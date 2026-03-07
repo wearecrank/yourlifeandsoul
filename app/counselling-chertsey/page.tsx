@@ -43,6 +43,15 @@ export default function ChertseyPage() {
           ],
         },
         {
+          title: "Neurodiversity Support",
+          content: [
+            "Neurodiversity is a specialism I'm proud to offer across the Runnymede and Chertsey area. Whether your child has been diagnosed with ADHD or autism (ASD), you're on a long waiting list for assessment, or you're an adult who has recently received a diagnosis, counselling can offer meaningful support at every stage.",
+            "Parents of neurodivergent children often face unique pressures -- endless school meetings, fighting for the right support, managing behaviour that others don't understand, and trying to parent in a way that truly fits your child. I offer a space to process those challenges, reduce isolation, and build practical strategies tailored to your family.",
+            "For children and young people, I work in an affirming, strengths-based way. Helping them understand and take pride in their neurodivergent identity, develop emotional regulation skills, and navigate social and academic challenges with greater confidence is central to the work we do together.",
+            "Neurodivergent adults -- particularly those who received their diagnosis later in life -- often find counselling invaluable for making sense of their experiences, processing any grief around earlier struggles, and moving forward with a clearer, kinder understanding of themselves.",
+          ],
+        },
+        {
           title: "Pregnancy, Postnatal Support, and Hyperemesis Gravidarum",
           content: [
             "Pregnancy and early parenthood can be some of the most challenging times in a person's life, despite the expectation to feel only joy. The reality is far more complex, and you deserve support that reflects that.",
