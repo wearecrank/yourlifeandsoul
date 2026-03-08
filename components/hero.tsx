@@ -12,7 +12,7 @@ export function Hero() {
       {/* Background image */}
       <Image
         src="/images/hero.jpg"
-        alt="Serene nature scene with morning light filtering through trees"
+        alt="Peaceful Surrey countryside scene, reflecting the calm and restorative nature of integrative counselling at Your Life And Soul"
         fill
         className="object-cover"
         priority

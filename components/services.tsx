@@ -69,7 +69,7 @@ export function Services() {
             <div className="relative h-56 w-full">
               <Image
                 src="/images/services-children.jpg"
-                alt="Child reaching towards a bright sky, representing hope and growth"
+                alt="Young person looking upward with hope, representing counselling support for children, teenagers and adults at Your Life And Soul"
                 fill
                 className="object-cover"
               />
@@ -113,7 +113,7 @@ export function Services() {
             <div className="relative h-56 w-full">
               <Image
                 src="/images/services-pregnancy.jpg"
-                alt="Gentle waves on a shore at golden hour, symbolising new beginnings"
+                alt="Calm shoreline at golden hour, representing specialist counselling support for pregnancy, postnatal wellbeing and Hyperemesis Gravidarum at Your Life And Soul"
                 fill
                 className="object-cover"
               />
