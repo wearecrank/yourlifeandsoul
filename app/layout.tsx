@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Lora, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { DyslexiaProvider } from '@/components/dyslexia-provider'
 import './globals.css'
 
 const _lora = Lora({
@@ -79,7 +80,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${_lora.variable} ${_inter.variable}`}>
       <body className="font-sans antialiased">
-        {children}
+        <DyslexiaProvider>
+          {children}
+        </DyslexiaProvider>
         <Analytics />
       </body>
     </html>

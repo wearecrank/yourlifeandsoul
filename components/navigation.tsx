@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import Image from "next/image"
 import { WhatsAppIcon } from "@/components/whatsapp-icon"
+import { useDyslexia } from "@/components/dyslexia-provider"
 
 const WHATSAPP_URL = "https://wa.me/447843153456?text=Hello%20I%20am%20interested%20in%20counselling%20sessions"
 
@@ -17,6 +18,7 @@ const navLinks = [
 
 export function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false)
+  const { dyslexiaMode, toggleDyslexia } = useDyslexia()
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
@@ -44,6 +46,21 @@ export function Navigation() {
               </a>
             </li>
           ))}
+          <li>
+            <button
+              onClick={toggleDyslexia}
+              title={dyslexiaMode ? "Switch to standard font" : "Switch to dyslexia-friendly font"}
+              aria-pressed={dyslexiaMode}
+              className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition-colors ${
+                dyslexiaMode
+                  ? "border-primary bg-primary text-primary-foreground"
+                  : "border-border bg-transparent text-muted-foreground hover:border-primary hover:text-primary"
+              }`}
+            >
+              <span className="text-sm font-bold">Aa</span>
+              <span>{dyslexiaMode ? "Dyslexia on" : "Dyslexia font"}</span>
+            </button>
+          </li>
           <li>
             <a
               href={WHATSAPP_URL}
@@ -82,6 +99,20 @@ export function Navigation() {
                 </a>
               </li>
             ))}
+            <li>
+              <button
+                onClick={toggleDyslexia}
+                aria-pressed={dyslexiaMode}
+                className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
+                  dyslexiaMode
+                    ? "border-primary bg-primary text-primary-foreground"
+                    : "border-border bg-transparent text-muted-foreground"
+                }`}
+              >
+                <span className="font-bold">Aa</span>
+                <span>{dyslexiaMode ? "Dyslexia font: on" : "Dyslexia-friendly font"}</span>
+              </button>
+            </li>
             <li>
               <a
                 href={WHATSAPP_URL}
