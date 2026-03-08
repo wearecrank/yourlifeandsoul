@@ -12,8 +12,8 @@ export default function WeybridgePage() {
   return (
     <LocalLandingPage
       location="Weybridge"
-      localImage="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/High_Street%2C_Weybridge_-_geograph.org.uk_-_903313.jpg/640px-High_Street%2C_Weybridge_-_geograph.org.uk_-_903313.jpg"
-      localImageAlt="High Street, Weybridge, Surrey, showing the Edwardian terrace of shops and offices with the parish church spire in the distance. Photo by Colin Smith, CC BY-SA 2.0"
+      localImage="/images/weybridge.jpg"
+      localImageAlt="Golden-hour view of the River Wey at Weybridge, Surrey, with a narrowboat moored along the bank, St James's church spire rising above the riverside houses, and the old bridge reflected in the still water at sunset"
       mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9966.12!2d-0.4571!3d51.3722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876045b8b3e0c3b%3A0x46e17c8c52fa29b2!2sWeybridge!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
       heroIntro="Sometimes life throws challenges at us that feel impossible to manage alone. Whether it's anxiety keeping you awake at night, relationship struggles, or concerns about your child's wellbeing, reaching out for support is a brave and important step."
       lindsayIntro="I'm Lindsay, a BACP-registered integrative counsellor working with individuals and families across Weybridge and the surrounding Surrey area. My practice is easily accessible from Weybridge town centre, Thames Street, and the surrounding villages. Whether you prefer face-to-face sessions or the convenience of online counselling, I'm here to provide compassionate, professional support."
