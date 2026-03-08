@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import { LocalLandingPage } from "@/components/local-landing-page"
 
 export const metadata: Metadata = {
-  title: "Weybridge Counselling | Integrative Therapy | Your Life and Soul",
+  title: "Counselling in Weybridge | Your Life and Soul | BACP Registered",
   description:
-    "Professional integrative counselling in Weybridge for children, teens & adults. Specialist HG support, anxiety & postnatal care. Online & face-to-face sessions.",
+    "Professional counselling in Weybridge for children, teens & adults. Specialist HG support, anxiety, depression & postnatal care. Online & face-to-face sessions.",
   alternates: { canonical: "/counselling-weybridge" },
 }
 

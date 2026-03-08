@@ -10,7 +10,7 @@ export function About() {
             About
           </p>
           <h2 className="font-serif text-3xl font-semibold text-foreground md:text-4xl text-balance">
-            About Your Life And Soul Integrative Counselling
+            About Your Life And Soul Counselling
           </h2>
         </div>
 
@@ -19,7 +19,7 @@ export function About() {
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-2xl lg:mx-0">
             <Image
               src="/images/about.jpg"
-              alt="Lindsay Salmon, integrative counsellor"
+              alt="Lindsay Salmon, BACP registered counsellor at Your Life And Soul"
               fill
               className="object-cover"
             />
@@ -28,7 +28,7 @@ export function About() {
           {/* Text */}
           <div>
             <p className="text-lg leading-relaxed text-foreground">
-              My name is Lindsay and I am an Integrative Counsellor and
+              My name is Lindsay and I am a Counsellor and
               registered member of the BACP. I work with children, teenagers and
               adults and also specialise in working with women who have suffered
               Hyperemesis Gravidarum (HG).

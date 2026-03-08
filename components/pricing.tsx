@@ -15,7 +15,7 @@ const plans = [
       "50-minute session",
       "Face-to-face or online",
       "Safe, confidential space",
-      "Tailored integrative approach",
+      "Tailored approach to counselling",
     ],
   },
   {
@@ -56,7 +56,7 @@ export function Pricing() {
             Pricing
           </p>
           <h2 className="font-serif text-3xl font-semibold text-foreground md:text-4xl text-balance">
-            Integrative Counselling Session Rates
+            Counselling Session Rates
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
             I believe therapy should be accessible. An initial free telephone

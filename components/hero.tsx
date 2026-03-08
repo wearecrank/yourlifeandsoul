@@ -12,7 +12,7 @@ export function Hero() {
       {/* Background image */}
       <Image
         src="/images/hero.jpg"
-        alt="Peaceful Surrey countryside scene, reflecting the calm and restorative nature of integrative counselling at Your Life And Soul"
+        alt="Peaceful Surrey countryside scene, reflecting the calm and restorative nature of counselling at Your Life And Soul"
         fill
         className="object-cover"
         priority
@@ -37,7 +37,7 @@ export function Hero() {
           Your Life And Soul
         </p>
         <h1 className="font-serif text-4xl font-semibold leading-tight text-secondary md:text-5xl lg:text-6xl text-balance">
-          Integrative Counselling for a Better You
+          Counselling for a Better You
         </h1>
         <p className="mt-4 text-lg leading-relaxed text-secondary/90 max-w-xl mx-auto text-pretty">
           {"Your life does not get better by chance, it gets better by change."}

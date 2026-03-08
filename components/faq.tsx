@@ -5,9 +5,9 @@ import { ChevronDown } from "lucide-react"
 
 const faqs = [
   {
-    question: "What is integrative counselling?",
+    question: "What is counselling?",
     answer:
-      "Integrative counselling draws on a range of therapeutic approaches and tailors them to suit your individual needs. Rather than following a single method, I combine techniques from different modalities to create a personalised experience that best supports you on your journey.",
+      "Counselling draws on a range of therapeutic approaches and tailors them to suit your individual needs. Rather than following a single method, techniques from different modalities are combined to create a personalised experience that best supports you on your journey.",
   },
   {
     question: "What happens in the first session?",
@@ -42,7 +42,7 @@ const faqs = [
   {
     question: "What are your qualifications?",
     answer:
-      "I am a qualified Integrative Counsellor and a registered member of the British Association for Counselling and Psychotherapy (BACP), member number 379263. I adhere to the BACP Ethical Framework and undertake regular supervision and continuing professional development.",
+      "I am a qualified Counsellor and a registered member of the British Association for Counselling and Psychotherapy (BACP), member number 379263. I adhere to the BACP Ethical Framework and undertake regular supervision and continuing professional development.",
   },
 ]
 
@@ -62,10 +62,10 @@ export function FAQ() {
             FAQ
           </p>
           <h2 className="font-serif text-3xl font-semibold text-foreground md:text-4xl text-balance">
-            Integrative Counselling FAQs
+            Counselling FAQs
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            Common questions about integrative counselling at Your Life And Soul.
+            Common questions about counselling at Your Life And Soul.
             If there is anything else you would like to know, please do not
             hesitate to get in touch.
           </p>

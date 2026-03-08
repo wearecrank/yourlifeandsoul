@@ -11,7 +11,7 @@ export function Footer() {
           <div className="text-center md:text-left">
             <Image
               src="/images/brand/logo_horizontal_transparent.png"
-              alt="Your Life And Soul — Integrative Counselling"
+              alt="Your Life And Soul — Counselling"
               width={540}
               height={162}
               className="h-40 w-auto object-contain"

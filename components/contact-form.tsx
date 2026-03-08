@@ -14,7 +14,7 @@ export function ContactForm() {
           Get in Touch
         </h2>
         <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-          Ready to start your integrative counselling journey? I would love to
+          Ready to start your counselling journey? I would love to
           hear from you. Send me a message on WhatsApp and I will get back to
           you as soon as possible.
         </p>
