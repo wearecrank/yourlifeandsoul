@@ -159,7 +159,7 @@ export function LocalLandingPage(props: LocalPageProps) {
             </a>
             <a
               href="#approach"
-              className="inline-flex items-center rounded-full border border-secondary/40 px-7 py-3 text-sm font-medium text-secondary transition-colors hover:bg-secondary/10"
+              className="inline-flex items-center rounded-full border border-secondary/40 px-7 py-3 text-sm font-medium text-secondary transition-colors hover:bg-white/20 hover:border-secondary/70"
             >
               Learn More
             </a>

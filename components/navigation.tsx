@@ -106,7 +106,7 @@ export function Navigation() {
                 className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
                   dyslexiaMode
                     ? "border-primary bg-primary text-primary-foreground"
-                    : "border-border bg-transparent text-muted-foreground"
+                    : "border-border bg-transparent text-muted-foreground hover:border-primary hover:text-primary"
                 }`}
               >
                 <span className="font-bold">Aa</span>

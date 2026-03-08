@@ -54,7 +54,7 @@ export function Hero() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-secondary/40 px-7 py-3 text-sm font-medium text-secondary transition-colors hover:bg-secondary/10"
+            className="inline-flex items-center gap-2 rounded-full border border-secondary/40 px-7 py-3 text-sm font-medium text-secondary transition-colors hover:bg-white/20 hover:border-secondary/70"
           >
             <WhatsAppIcon className="h-4 w-4" />
             Get in Touch
