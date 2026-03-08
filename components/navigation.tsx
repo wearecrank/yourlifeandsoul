@@ -26,7 +26,7 @@ export function Navigation() {
         <a href="/" className="flex items-center">
           <Image
             src="/images/brand/logo_horizontal_transparent.png"
-            alt="Your Life And Soul — Integrative Counselling"
+            alt="Your Life And Soul — Counselling"
             width={600}
             height={180}
             className="h-20 w-auto scale-[2.0] origin-left object-contain"

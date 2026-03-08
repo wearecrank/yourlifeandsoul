@@ -26,14 +26,15 @@ export const metadata: Metadata = {
     ],
     apple: '/favicon-256.png',
   },
-  title: 'Your Life And Soul | Integrative Counselling for Children, Teens & Adults',
+  title: 'Your Life And Soul | Counselling for Children, Teens & Adults in Surrey',
   description:
-    'Your Life And Soul offers professional integrative counselling for children, teenagers and adults. BACP registered counsellor Lindsay Salmon provides a safe, collaborative and non-judgemental space for anxiety, depression, family dynamics, HG recovery and more.',
+    'Your Life And Soul offers professional counselling for children, teenagers and adults in Surrey. BACP registered counsellor Lindsay Salmon provides a safe, collaborative and non-judgemental space for anxiety, depression, family dynamics, HG recovery and more.',
   keywords: [
-    'integrative counselling',
+    'counselling',
+    'counselling Surrey',
+    'counsellor',
     'Your Life And Soul',
     'Your Life And Soul Counselling',
-    'integrative counsellor',
     'BACP counsellor',
     'counselling for children',
     'counselling for teenagers',
@@ -47,19 +48,23 @@ export const metadata: Metadata = {
     'BACP registered counsellor',
     'online counselling',
     'pregnancy counselling',
+    'counselling Addlestone',
+    'counselling Weybridge',
+    'counselling Chertsey',
+    'counselling Woking',
   ],
   openGraph: {
-    title: 'Your Life And Soul | Integrative Counselling',
+    title: 'Your Life And Soul | Counselling in Surrey',
     description:
-      'Professional integrative counselling for children, teenagers and adults. BACP registered counsellor Lindsay Salmon helps you reconnect with yourself in a safe, non-judgemental space.',
+      'Professional counselling for children, teenagers and adults in Surrey. BACP registered counsellor Lindsay Salmon helps you reconnect with yourself in a safe, non-judgemental space.',
     siteName: 'Your Life And Soul Counselling',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Your Life And Soul | Integrative Counselling',
+    title: 'Your Life And Soul | Counselling in Surrey',
     description:
-      'Professional integrative counselling for children, teenagers and adults by BACP registered counsellor Lindsay Salmon.',
+      'Professional counselling for children, teenagers and adults in Surrey by BACP registered counsellor Lindsay Salmon.',
   },
   alternates: {
     canonical: '/',

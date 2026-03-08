@@ -12,13 +12,13 @@ import { Footer } from "@/components/footer"
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "Your Life And Soul Integrative Counselling",
+  name: "Your Life And Soul Counselling",
   description:
-    "Professional integrative counselling for children, teenagers and adults. BACP registered counsellor Lindsay Salmon provides a safe, collaborative and non-judgemental space.",
+    "Professional counselling for children, teenagers and adults in Surrey. BACP registered counsellor Lindsay Salmon provides a safe, collaborative and non-judgemental space.",
   provider: {
     "@type": "Person",
     name: "Lindsay Salmon",
-    jobTitle: "Integrative Counsellor",
+    jobTitle: "Counsellor",
     memberOf: {
       "@type": "Organization",
       name: "British Association for Counselling and Psychotherapy",
@@ -26,14 +26,17 @@ const jsonLd = {
     },
   },
   serviceType: [
-    "Integrative Counselling",
+    "Counselling",
     "Child Counselling",
     "Teenager Counselling",
     "Adult Counselling",
-    "Couples Counselling",
     "Family Counselling",
     "Pregnancy Counselling",
+    "Postnatal Counselling",
     "Hyperemesis Gravidarum Support",
+    "Neurodiversity Counselling",
+    "Anxiety Counselling",
+    "Depression Counselling",
   ],
   areaServed: {
     "@type": "Country",
@@ -47,10 +50,10 @@ const faqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is integrative counselling?",
+      name: "What is counselling?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Integrative counselling draws on a range of therapeutic approaches and tailors them to suit your individual needs. Rather than following a single method, techniques from different modalities are combined to create a personalised experience that best supports you on your journey.",
+        text: "Counselling draws on a range of therapeutic approaches and tailors them to suit your individual needs. Rather than following a single method, techniques from different modalities are combined to create a personalised experience that best supports you on your journey.",
       },
     },
     {
@@ -79,10 +82,10 @@ const faqJsonLd = {
     },
     {
       "@type": "Question",
-      name: "Do you offer online integrative counselling sessions?",
+      name: "Do you offer online counselling sessions?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, both face-to-face and online sessions are offered. Online counselling sessions work well for many clients and can offer greater flexibility, particularly for those with busy schedules or who find it more comfortable to be in their own space.",
+        text: "Yes, both face-to-face and online counselling sessions are offered. Online counselling works well for many clients and can offer greater flexibility, particularly for those with busy schedules or who find it more comfortable to be in their own space.",
       },
     },
     {

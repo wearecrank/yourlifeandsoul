@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import { LocalLandingPage } from "@/components/local-landing-page"
 
 export const metadata: Metadata = {
-  title: "Chertsey Counselling | Integrative Therapy | Your Life and Soul",
+  title: "Counselling in Chertsey | Your Life and Soul | BACP Registered",
   description:
-    "Integrative counselling in Chertsey for children, teens & adults. Specialist support for anxiety, HG, pregnancy & postnatal care. Face-to-face & online sessions available.",
+    "Counselling in Chertsey for children, teens & adults. Specialist support for anxiety, depression, HG, pregnancy & postnatal care. Face-to-face & online sessions available.",
   alternates: { canonical: "/counselling-chertsey" },
 }
 

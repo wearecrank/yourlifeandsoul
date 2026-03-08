@@ -55,11 +55,11 @@ export function Services() {
             Services
           </p>
           <h2 className="font-serif text-3xl font-semibold text-foreground md:text-4xl text-balance">
-            How Integrative Counselling Can Help
+            How Counselling Can Help
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
-            Every person is unique. Our integrative approach draws on multiple
-            therapeutic modalities to create a tailored plan that works for you.
+            Every person is unique. Our approach draws on multiple
+            therapeutic modalities to create a tailored counselling plan that works for you.
           </p>
         </div>
 

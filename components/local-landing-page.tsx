@@ -58,7 +58,7 @@ const plans = [
       "50-minute session",
       "Face-to-face or online",
       "Safe, confidential space",
-      "Tailored integrative approach",
+      "Tailored approach to counselling",
     ],
   },
   {
@@ -142,7 +142,7 @@ export function LocalLandingPage(props: LocalPageProps) {
             Your Life And Soul
           </p>
           <h1 className="font-serif text-4xl font-semibold leading-tight text-secondary md:text-5xl lg:text-6xl text-balance">
-            Integrative Counselling in {props.location}
+            Counselling in {props.location}
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-secondary/90 max-w-xl mx-auto text-pretty">
             {props.heroIntro}
@@ -290,7 +290,7 @@ export function LocalLandingPage(props: LocalPageProps) {
               Pricing
             </p>
             <h2 className="font-serif text-3xl font-semibold text-foreground md:text-4xl text-balance">
-              Integrative Counselling Session Rates
+              Counselling Session Rates
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
               I believe therapy should be accessible. An initial free telephone

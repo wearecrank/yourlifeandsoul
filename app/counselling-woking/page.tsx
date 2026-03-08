@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import { LocalLandingPage } from "@/components/local-landing-page"
 
 export const metadata: Metadata = {
-  title: "Woking Counselling | Integrative Therapy | Your Life and Soul",
+  title: "Counselling in Woking | Your Life and Soul | BACP Registered",
   description:
-    "Integrative counselling serving Woking for all ages. Expert support for anxiety, HG, pregnancy challenges, family issues. Face-to-face & online therapy available.",
+    "Counselling in Woking for all ages. Expert support for anxiety, depression, HG, pregnancy challenges, family issues. Face-to-face & online sessions available.",
   alternates: { canonical: "/counselling-woking" },
 }
 
