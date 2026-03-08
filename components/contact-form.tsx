@@ -23,7 +23,7 @@ export function ContactForm() {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-10 inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground transition-colors hover:bg-accent"
+          className="mt-10 inline-flex items-center gap-3 rounded-full border border-transparent bg-primary px-8 py-4 text-base font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
         >
           <WhatsAppIcon className="h-5 w-5" />
           Get in Touch on WhatsApp

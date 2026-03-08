@@ -111,17 +111,41 @@ export function Footer() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+            className="inline-flex items-center gap-2 rounded-full border border-transparent bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
           >
             <WhatsAppIcon className="h-4 w-4" />
             Get in Touch on WhatsApp
           </a>
         </div>
 
-        <div className="mt-8 border-t border-border pt-8 text-center">
+        <div className="mt-8 border-t border-border pt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
           <p className="text-sm text-muted-foreground">
             {`\u00A9 ${new Date().getFullYear()} Your Life and Soul. All rights reserved.`}
           </p>
+          <a
+            href="https://www.instagram.com/navigatingndparenting/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Follow Your Life And Soul on Instagram"
+            className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-primary"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.75"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-5 w-5"
+              aria-hidden="true"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+            </svg>
+            @navigatingndparenting
+          </a>
         </div>
       </div>
     </footer>

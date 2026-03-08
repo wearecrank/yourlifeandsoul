@@ -66,7 +66,7 @@ export function Navigation() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+              className="inline-flex items-center gap-2 rounded-full border border-transparent bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
             >
               <WhatsAppIcon className="h-4 w-4" />
               Get in Touch
@@ -106,7 +106,7 @@ export function Navigation() {
                 className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
                   dyslexiaMode
                     ? "border-primary bg-primary text-primary-foreground"
-                    : "border-border bg-transparent text-muted-foreground"
+                    : "border-border bg-transparent text-muted-foreground hover:border-primary hover:text-primary"
                 }`}
               >
                 <span className="font-bold">Aa</span>
@@ -119,7 +119,7 @@ export function Navigation() {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
-                className="mt-2 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+                className="mt-2 inline-flex items-center gap-2 rounded-full border border-transparent bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
               >
                 <WhatsAppIcon className="h-4 w-4" />
                 Get in Touch

@@ -46,7 +46,7 @@ export function Hero() {
         <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href="#about"
-            className="inline-flex items-center rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+            className="inline-flex items-center rounded-full border border-transparent bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
           >
             How We Can Help
           </a>
@@ -54,7 +54,7 @@ export function Hero() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-secondary/40 px-7 py-3 text-sm font-medium text-secondary transition-colors hover:bg-secondary/10"
+            className="inline-flex items-center gap-2 rounded-full border border-secondary/40 px-7 py-3 text-sm font-medium text-secondary transition-colors hover:bg-primary hover:text-primary-foreground hover:border-primary"
           >
             <WhatsAppIcon className="h-4 w-4" />
             Get in Touch

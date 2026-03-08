@@ -101,7 +101,7 @@ export function Services() {
               </ul>
               <a
                 href="#contact"
-                className="mt-8 inline-flex items-center rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+                className="mt-8 inline-flex items-center rounded-full border border-transparent bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
               >
                 Get in touch
               </a>
@@ -145,7 +145,7 @@ export function Services() {
               </ul>
               <a
                 href="#contact"
-                className="mt-8 inline-flex items-center rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+                className="mt-8 inline-flex items-center rounded-full border border-transparent bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
               >
                 Get in touch
               </a>
@@ -188,7 +188,7 @@ export function Services() {
               </ul>
               <a
                 href="#contact"
-                className="mt-8 inline-flex items-center rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+                className="mt-8 inline-flex items-center rounded-full border border-transparent bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
               >
                 Get in touch
               </a>

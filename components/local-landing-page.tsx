@@ -152,14 +152,14 @@ export function LocalLandingPage(props: LocalPageProps) {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+              className="inline-flex items-center gap-2 rounded-full border border-transparent bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
             >
               <WhatsAppIcon className="h-4 w-4" />
               Get in Touch
             </a>
             <a
               href="#approach"
-              className="inline-flex items-center rounded-full border border-secondary/40 px-7 py-3 text-sm font-medium text-secondary transition-colors hover:bg-secondary/10"
+              className="inline-flex items-center rounded-full border border-secondary/40 px-7 py-3 text-sm font-medium text-secondary transition-colors hover:bg-primary hover:text-primary-foreground hover:border-primary"
             >
               Learn More
             </a>
@@ -344,7 +344,7 @@ export function LocalLandingPage(props: LocalPageProps) {
                     rel="noopener noreferrer"
                     className={`mt-8 inline-flex items-center justify-center gap-2 rounded-full px-6 py-2.5 text-sm font-medium transition-colors ${
                       plan.featured
-                        ? "bg-primary text-primary-foreground hover:bg-accent"
+                        ? "border border-transparent bg-primary text-primary-foreground hover:bg-white hover:text-primary hover:border-primary"
                         : "border border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                     }`}
                   >
@@ -450,7 +450,7 @@ export function LocalLandingPage(props: LocalPageProps) {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-10 inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground transition-colors hover:bg-accent"
+            className="mt-10 inline-flex items-center gap-3 rounded-full border border-transparent bg-primary px-8 py-4 text-base font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
           >
             <WhatsAppIcon className="h-5 w-5" />
             Get in Touch on WhatsApp
