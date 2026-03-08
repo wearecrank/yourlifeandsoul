@@ -23,6 +23,10 @@ html[data-dyslexic="true"] {
   --font-mono: 'OpenDyslexic', sans-serif;
 }
 
+html[data-dyslexic="true"] {
+  font-size: 0.875em;
+}
+
 html[data-dyslexic="true"],
 html[data-dyslexic="true"] body,
 html[data-dyslexic="true"] * {
