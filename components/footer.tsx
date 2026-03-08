@@ -12,9 +12,9 @@ export function Footer() {
             <Image
               src="/images/brand/logo_horizontal_transparent.png"
               alt="Your Life And Soul — Integrative Counselling"
-              width={300}
-              height={90}
-              className="h-20 w-auto object-contain"
+              width={540}
+              height={162}
+              className="h-32 w-auto object-contain"
             />
           </div>
 
