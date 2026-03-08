@@ -111,7 +111,7 @@ export function Footer() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
+            className="inline-flex items-center gap-2 rounded-full border border-transparent bg-primary px-6 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-white hover:text-primary hover:border-primary"
           >
             <WhatsAppIcon className="h-4 w-4" />
             Get in Touch on WhatsApp
