@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[90vh] items-center justify-center overflow-hidden pt-20"
+      className="relative flex min-h-[75vh] items-center justify-center overflow-hidden pt-16"
     >
       {/* Background image */}
       <Image
@@ -23,7 +23,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
-        <div className="mb-6 flex justify-center">
+        <div className="mb-4 flex justify-center">
           <Image
             src="/images/brand/icon_white_512.png"
             alt="Your Life And Soul flower logo"
@@ -39,11 +39,11 @@ export function Hero() {
         <h1 className="font-serif text-4xl font-semibold leading-tight text-secondary md:text-5xl lg:text-6xl text-balance">
           Integrative Counselling for a Better You
         </h1>
-        <p className="mt-6 text-lg leading-relaxed text-secondary/90 max-w-xl mx-auto text-pretty">
+        <p className="mt-4 text-lg leading-relaxed text-secondary/90 max-w-xl mx-auto text-pretty">
           {"Your life does not get better by chance, it gets better by change."}
         </p>
         <p className="mt-2 text-sm italic text-secondary/70">{"Jim Rohn"}</p>
-        <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href="#about"
             className="inline-flex items-center rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"

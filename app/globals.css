@@ -23,10 +23,6 @@ html[data-dyslexic="true"] {
   --font-mono: 'OpenDyslexic', sans-serif;
 }
 
-html[data-dyslexic="true"] {
-  font-size: 0.875em;
-}
-
 html[data-dyslexic="true"],
 html[data-dyslexic="true"] body,
 html[data-dyslexic="true"] * {
@@ -34,6 +30,15 @@ html[data-dyslexic="true"] * {
   letter-spacing: 0.05em;
   word-spacing: 0.15em;
   line-height: 1.8;
+}
+
+html[data-dyslexic="true"] p,
+html[data-dyslexic="true"] li,
+html[data-dyslexic="true"] span,
+html[data-dyslexic="true"] a,
+html[data-dyslexic="true"] label,
+html[data-dyslexic="true"] button {
+  font-size: 0.9em;
 }
 
 @custom-variant dark (&:is(.dark *));
