@@ -23,7 +23,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
-        <div className="mb-4 flex justify-center">
+        <div className="mb-4 flex justify-center pt-8">
           <Image
             src="/images/brand/icon_white_512.png"
             alt="Your Life And Soul flower logo"
