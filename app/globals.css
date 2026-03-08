@@ -17,6 +17,12 @@
   font-display: swap;
 }
 
+html[data-dyslexic="true"] {
+  --font-sans: 'OpenDyslexic', sans-serif;
+  --font-serif: 'OpenDyslexic', sans-serif;
+  --font-mono: 'OpenDyslexic', sans-serif;
+}
+
 html[data-dyslexic="true"],
 html[data-dyslexic="true"] body,
 html[data-dyslexic="true"] * {
