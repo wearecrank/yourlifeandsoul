@@ -55,8 +55,7 @@ export default function ChertseyPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
       />
-  return (
-    <LocalLandingPage
+      <LocalLandingPage
       location="Chertsey"
       localImage="/images/chertsey.jpg"
       localImageAlt="Chertsey Bridge, the elegant 18th-century stone arch bridge spanning the River Thames at Chertsey, Surrey, with riverside benches and a bright blue sky"

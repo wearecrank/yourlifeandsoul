@@ -55,8 +55,7 @@ export default function WeybridgePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
       />
-  return (
-    <LocalLandingPage
+      <LocalLandingPage
       location="Weybridge"
       localImage="/images/weybridge.jpg"
       localImageAlt="Golden-hour view of the River Wey at Weybridge, Surrey, with a narrowboat moored along the bank, St James's church spire rising above the riverside houses, and the old bridge reflected in the still water at sunset"

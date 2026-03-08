@@ -55,8 +55,7 @@ export default function AddlestonePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
       />
-  return (
-    <LocalLandingPage
+      <LocalLandingPage
       location="Addlestone"
       localImage="/images/addlestone.jpg"
       localImageAlt="The River Bourne winding through the Surrey countryside near Addlestone, flanked by bare winter trees and green grassy banks"

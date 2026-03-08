@@ -55,8 +55,7 @@ export default function WokingPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
       />
-  return (
-    <LocalLandingPage
+      <LocalLandingPage
       location="Woking"
       localImage="/images/woking.jpg"
       localImageAlt="Woking town centre showing the Peacocks shopping centre, the Victoria Square war memorial statue, and shoppers crossing the pedestrianised square"
