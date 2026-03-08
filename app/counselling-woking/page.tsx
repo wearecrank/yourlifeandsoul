@@ -2,13 +2,59 @@ import type { Metadata } from "next"
 import { LocalLandingPage } from "@/components/local-landing-page"
 
 export const metadata: Metadata = {
-  title: "Counselling in Woking | Your Life and Soul | BACP Registered",
+  title: "Counselling in Woking, Surrey | Your Life And Soul",
   description:
-    "Counselling in Woking for all ages. Expert support for anxiety, depression, HG, pregnancy challenges, family issues. Face-to-face & online sessions available.",
-  alternates: { canonical: "/counselling-woking" },
+    "Looking for a counsellor in Woking? Lindsay Salmon offers counselling for children, teens and adults. BACP registered. Online and face-to-face sessions available.",
+  keywords: [
+    "counselling Woking",
+    "counsellor Woking",
+    "counselling Surrey",
+    "BACP counsellor Woking",
+    "anxiety counselling Woking",
+    "child counselling Woking",
+    "HG counselling Surrey",
+    "online counselling Woking",
+  ],
+  alternates: { canonical: "https://www.yourlifeandsoul.co.uk/counselling-woking" },
+  openGraph: {
+    title: "Counselling in Woking, Surrey | Your Life And Soul",
+    description: "Looking for a counsellor in Woking? Lindsay Salmon offers counselling for children, teens and adults. BACP registered. Online and face-to-face sessions available.",
+    type: "website",
+    url: "https://www.yourlifeandsoul.co.uk/counselling-woking",
+  },
+}
+
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.yourlifeandsoul.co.uk/counselling-woking",
+  name: "Your Life And Soul Counselling – Woking",
+  description: "Counselling for children, teens and adults in Woking, Surrey. BACP registered counsellor Lindsay Salmon.",
+  url: "https://www.yourlifeandsoul.co.uk/counselling-woking",
+  telephone: "",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Woking",
+    addressRegion: "Surrey",
+    addressCountry: "GB",
+  },
+  areaServed: [
+    { "@type": "City", name: "Woking" },
+    { "@type": "City", name: "Addlestone" },
+    { "@type": "City", name: "Weybridge" },
+  ],
+  priceRange: "££",
+  image: "https://www.yourlifeandsoul.co.uk/images/woking.jpg",
+  sameAs: ["https://www.instagram.com/navigatingndparenting/"],
 }
 
 export default function WokingPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
   return (
     <LocalLandingPage
       location="Woking"
@@ -111,5 +157,6 @@ export default function WokingPage() {
         { label: "Counselling in Chertsey", href: "/counselling-chertsey" },
       ]}
     />
+    </>
   )
 }
