@@ -27,7 +27,7 @@ export function Navigation() {
             alt="Your Life And Soul — Integrative Counselling"
             width={500}
             height={150}
-            className="h-28 w-auto object-contain"
+            className="h-36 w-auto object-contain"
             priority
           />
         </a>

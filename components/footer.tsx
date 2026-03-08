@@ -14,7 +14,7 @@ export function Footer() {
               alt="Your Life And Soul — Integrative Counselling"
               width={540}
               height={162}
-              className="h-32 w-auto object-contain"
+              className="h-40 w-auto object-contain"
             />
           </div>
 
