@@ -12,8 +12,8 @@ export default function AddlestonePage() {
   return (
     <LocalLandingPage
       location="Addlestone"
-      localImage="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Shops_on_Station_Road_-_geograph.org.uk_-_7648705.jpg/1280px-Shops_on_Station_Road_-_geograph.org.uk_-_7648705.jpg"
-      localImageAlt="Shops on Station Road, Addlestone town centre, Surrey. Photo by Des Blenkinsopp, CC BY-SA 2.0"
+      localImage="/images/addlestone.jpg"
+      localImageAlt="The River Bourne winding through the Surrey countryside near Addlestone, flanked by bare winter trees and green grassy banks"
       mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9968.48!2d-0.4917!3d51.3696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876040c6aa7c101%3A0x22f46f10fa6e4e70!2sAddlestone!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
       heroIntro="Whether you're navigating stress at work, struggling with anxiety, or supporting your child through a difficult period, having someone to talk to can make all the difference."
       lindsayIntro="I'm Lindsay, an integrative counsellor registered with the BACP, and I work with people of all ages -- from children and teenagers to adults. My practice is conveniently located in the heart of Addlestone, making it easy to access whether you're coming from the town centre, Victory Park, or the surrounding areas. I also offer online sessions via video call if that suits you better."

@@ -1,6 +1,46 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('https://cdn.jsdelivr.net/npm/opendyslexic@0.91.12/fonts/OpenDyslexic-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('https://cdn.jsdelivr.net/npm/opendyslexic@0.91.12/fonts/OpenDyslexic-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html[data-dyslexic="true"] {
+  --font-sans: 'OpenDyslexic', sans-serif;
+  --font-serif: 'OpenDyslexic', sans-serif;
+  --font-mono: 'OpenDyslexic', sans-serif;
+}
+
+html[data-dyslexic="true"],
+html[data-dyslexic="true"] body,
+html[data-dyslexic="true"] * {
+  font-family: 'OpenDyslexic', sans-serif !important;
+  letter-spacing: 0.05em;
+  word-spacing: 0.15em;
+  line-height: 1.8;
+}
+
+html[data-dyslexic="true"] p,
+html[data-dyslexic="true"] li,
+html[data-dyslexic="true"] span,
+html[data-dyslexic="true"] a,
+html[data-dyslexic="true"] label,
+html[data-dyslexic="true"] button {
+  font-size: 0.9em;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {

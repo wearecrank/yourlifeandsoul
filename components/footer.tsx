@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { WhatsAppIcon } from "@/components/whatsapp-icon"
 
 const WHATSAPP_URL = "https://wa.me/447843153456?text=Hello%20I%20am%20interested%20in%20counselling%20sessions"
@@ -8,12 +9,13 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
           <div className="text-center md:text-left">
-            <p className="font-serif text-lg font-semibold text-foreground">
-              Your Life And Soul
-            </p>
-            <p className="mt-1 text-sm text-muted-foreground">
-              Integrative Counselling for Children, Teens & Adults
-            </p>
+            <Image
+              src="/images/brand/logo_horizontal_transparent.png"
+              alt="Your Life And Soul — Integrative Counselling"
+              width={540}
+              height={162}
+              className="h-40 w-auto object-contain"
+            />
           </div>
 
           <nav aria-label="Footer navigation">

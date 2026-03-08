@@ -12,8 +12,8 @@ export default function ChertseyPage() {
   return (
     <LocalLandingPage
       location="Chertsey"
-      localImage="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Chertsey%2C_The_Old_Town_Hall_-_geograph.org.uk_-_546171.jpg/640px-Chertsey%2C_The_Old_Town_Hall_-_geograph.org.uk_-_546171.jpg"
-      localImageAlt="Chertsey Old Town Hall, built in 1851 in Italianate style, on the high street in Chertsey town centre, Surrey. Photo by Nigel Cox, CC BY-SA 2.0"
+      localImage="/images/chertsey.jpg"
+      localImageAlt="Chertsey Bridge, the elegant 18th-century stone arch bridge spanning the River Thames at Chertsey, Surrey, with riverside benches and a bright blue sky"
       mapEmbedUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9966.12!2d-0.5074!3d51.3902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876053e5bcf3f9b%3A0x6daeacd4c89cefd0!2sChertsey%2C%20Surrey!5e0!3m2!1sen!2suk!4v1700000000000!5m2!1sen!2suk"
       heroIntro="Life can feel overwhelming at times -- whether you're a parent trying to understand your child, an adult carrying too much stress, or someone navigating a difficult season. Having the right support nearby makes all the difference."
       lindsayIntro="I'm Lindsay, a BACP-registered integrative counsellor, and I work with people of all ages from children and teenagers to adults. My practice serves Chertsey and the wider Runnymede area. Chertsey is one of Surrey's oldest market towns, with a strong community spirit and great transport links -- making it convenient to reach whether you're coming from the town centre, Chertsey Meads, or travelling in from nearby Addlestone, Weybridge, or Woking. Online sessions via secure video call are also available if that works better for you."

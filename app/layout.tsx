@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Lora, Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { DyslexiaProvider } from '@/components/dyslexia-provider'
 import './globals.css'
 
 const _lora = Lora({
@@ -16,6 +17,15 @@ const _inter = Inter({
 })
 
 export const metadata: Metadata = {
+  icons: {
+    icon: [
+      { url: '/favicon-16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-64.png', sizes: '64x64', type: 'image/png' },
+      { url: '/favicon-256.png', sizes: '256x256', type: 'image/png' },
+    ],
+    apple: '/favicon-256.png',
+  },
   title: 'Your Life And Soul | Integrative Counselling for Children, Teens & Adults',
   description:
     'Your Life And Soul offers professional integrative counselling for children, teenagers and adults. BACP registered counsellor Lindsay Salmon provides a safe, collaborative and non-judgemental space for anxiety, depression, family dynamics, HG recovery and more.',
@@ -70,7 +80,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${_lora.variable} ${_inter.variable}`}>
       <body className="font-sans antialiased">
-        {children}
+        <DyslexiaProvider>
+          {children}
+        </DyslexiaProvider>
         <Analytics />
       </body>
     </html>
