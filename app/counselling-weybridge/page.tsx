@@ -2,15 +2,60 @@ import type { Metadata } from "next"
 import { LocalLandingPage } from "@/components/local-landing-page"
 
 export const metadata: Metadata = {
-  title: "Counselling in Weybridge | Your Life and Soul | BACP Registered",
+  title: "Counselling in Weybridge, Surrey | Your Life And Soul",
   description:
-    "Professional counselling in Weybridge for children, teens & adults. Specialist HG support, anxiety, depression & postnatal care. Online & face-to-face sessions.",
-  alternates: { canonical: "/counselling-weybridge" },
+    "Counselling in Weybridge, Surrey. Specialist support for anxiety, depression, pregnancy and HG. BACP registered. Free initial telephone consultation.",
+  keywords: [
+    "counselling Weybridge",
+    "counsellor Weybridge",
+    "counselling Surrey",
+    "BACP counsellor Weybridge",
+    "anxiety counselling Weybridge",
+    "HG counselling Weybridge",
+    "postnatal counselling Surrey",
+    "online counselling Weybridge",
+  ],
+  alternates: { canonical: "https://www.yourlifeandsoul.co.uk/counselling-weybridge" },
+  openGraph: {
+    title: "Counselling in Weybridge, Surrey | Your Life And Soul",
+    description: "Counselling in Weybridge, Surrey. Specialist support for anxiety, depression, pregnancy and HG. BACP registered. Free initial telephone consultation.",
+    type: "website",
+    url: "https://www.yourlifeandsoul.co.uk/counselling-weybridge",
+  },
+}
+
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.yourlifeandsoul.co.uk/counselling-weybridge",
+  name: "Your Life And Soul Counselling – Weybridge",
+  description: "Counselling in Weybridge, Surrey. Specialist support for anxiety, depression, pregnancy and HG. BACP registered counsellor Lindsay Salmon.",
+  url: "https://www.yourlifeandsoul.co.uk/counselling-weybridge",
+  telephone: "",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Weybridge",
+    addressRegion: "Surrey",
+    addressCountry: "GB",
+  },
+  areaServed: [
+    { "@type": "City", name: "Weybridge" },
+    { "@type": "City", name: "Addlestone" },
+    { "@type": "City", name: "Chertsey" },
+  ],
+  priceRange: "££",
+  image: "https://www.yourlifeandsoul.co.uk/images/weybridge.jpg",
+  sameAs: ["https://www.instagram.com/navigatingndparenting/"],
 }
 
 export default function WeybridgePage() {
   return (
-    <LocalLandingPage
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
+      <LocalLandingPage
       location="Weybridge"
       localImage="/images/weybridge.jpg"
       localImageAlt="Golden-hour view of the River Wey at Weybridge, Surrey, with a narrowboat moored along the bank, St James's church spire rising above the riverside houses, and the old bridge reflected in the still water at sunset"
@@ -111,5 +156,6 @@ export default function WeybridgePage() {
         { label: "Counselling in Woking", href: "/counselling-woking" },
       ]}
     />
+    </>
   )
 }

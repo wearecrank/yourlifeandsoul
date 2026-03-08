@@ -2,15 +2,60 @@ import type { Metadata } from "next"
 import { LocalLandingPage } from "@/components/local-landing-page"
 
 export const metadata: Metadata = {
-  title: "Counselling in Chertsey | Your Life and Soul | BACP Registered",
+  title: "Counselling in Chertsey, Surrey | Your Life And Soul",
   description:
-    "Counselling in Chertsey for children, teens & adults. Specialist support for anxiety, depression, HG, pregnancy & postnatal care. Face-to-face & online sessions available.",
-  alternates: { canonical: "/counselling-chertsey" },
+    "Counselling in Chertsey for children, teenagers and adults. BACP registered. Specialist support for anxiety, depression, HG and neurodivergence. Free consultation available.",
+  keywords: [
+    "counselling Chertsey",
+    "counsellor Chertsey",
+    "counselling Surrey",
+    "BACP counsellor Chertsey",
+    "anxiety counselling Chertsey",
+    "neurodivergence counselling Chertsey",
+    "HG counselling Surrey",
+    "online counselling Chertsey",
+  ],
+  alternates: { canonical: "https://www.yourlifeandsoul.co.uk/counselling-chertsey" },
+  openGraph: {
+    title: "Counselling in Chertsey, Surrey | Your Life And Soul",
+    description: "Counselling in Chertsey for children, teenagers and adults. BACP registered. Specialist support for anxiety, depression, HG and neurodivergence.",
+    type: "website",
+    url: "https://www.yourlifeandsoul.co.uk/counselling-chertsey",
+  },
+}
+
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.yourlifeandsoul.co.uk/counselling-chertsey",
+  name: "Your Life And Soul Counselling – Chertsey",
+  description: "Counselling in Chertsey for children, teenagers and adults. BACP registered counsellor Lindsay Salmon.",
+  url: "https://www.yourlifeandsoul.co.uk/counselling-chertsey",
+  telephone: "",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Chertsey",
+    addressRegion: "Surrey",
+    addressCountry: "GB",
+  },
+  areaServed: [
+    { "@type": "City", name: "Chertsey" },
+    { "@type": "City", name: "Addlestone" },
+    { "@type": "City", name: "Weybridge" },
+  ],
+  priceRange: "££",
+  image: "https://www.yourlifeandsoul.co.uk/images/chertsey.jpg",
+  sameAs: ["https://www.instagram.com/navigatingndparenting/"],
 }
 
 export default function ChertseyPage() {
   return (
-    <LocalLandingPage
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
+      <LocalLandingPage
       location="Chertsey"
       localImage="/images/chertsey.jpg"
       localImageAlt="Chertsey Bridge, the elegant 18th-century stone arch bridge spanning the River Thames at Chertsey, Surrey, with riverside benches and a bright blue sky"
@@ -112,5 +157,6 @@ export default function ChertseyPage() {
         { label: "Counselling in Woking", href: "/counselling-woking" },
       ]}
     />
+    </>
   )
 }

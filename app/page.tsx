@@ -9,6 +9,33 @@ import { FAQ } from "@/components/faq"
 import { ContactForm } from "@/components/contact-form"
 import { Footer } from "@/components/footer"
 
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.yourlifeandsoul.co.uk",
+  name: "Your Life And Soul Counselling",
+  description: "Professional counselling for children, teenagers and adults in Surrey. BACP registered counsellor Lindsay Salmon.",
+  url: "https://www.yourlifeandsoul.co.uk",
+  telephone: "",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Addlestone",
+    addressRegion: "Surrey",
+    addressCountry: "GB",
+  },
+  areaServed: [
+    { "@type": "City", name: "Addlestone" },
+    { "@type": "City", name: "Weybridge" },
+    { "@type": "City", name: "Chertsey" },
+    { "@type": "City", name: "Woking" },
+  ],
+  priceRange: "££",
+  sameAs: [
+    "https://www.instagram.com/navigatingndparenting/",
+    "https://business.google.com/n/11526429763390290631/profile?fid=5988562807071902376",
+  ],
+}
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
@@ -102,6 +129,10 @@ const faqJsonLd = {
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

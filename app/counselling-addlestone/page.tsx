@@ -2,15 +2,60 @@ import type { Metadata } from "next"
 import { LocalLandingPage } from "@/components/local-landing-page"
 
 export const metadata: Metadata = {
-  title: "Counselling in Addlestone | Your Life and Soul | BACP Registered",
+  title: "Counselling in Addlestone, Surrey | Your Life And Soul",
   description:
-    "Counselling in Addlestone for children, teens & adults. Specialist support for anxiety, depression, HG, pregnancy & postnatal care. Face-to-face & online sessions available.",
-  alternates: { canonical: "/counselling-addlestone" },
+    "Counselling for children, teens and adults in Addlestone, Surrey. BACP registered counsellor Lindsay Salmon. Free initial telephone consultation. Get in touch via WhatsApp.",
+  keywords: [
+    "counselling Addlestone",
+    "counsellor Addlestone",
+    "counselling Surrey",
+    "BACP counsellor Addlestone",
+    "child counselling Addlestone",
+    "anxiety counselling Addlestone",
+    "HG counselling",
+    "online counselling Surrey",
+  ],
+  alternates: { canonical: "https://www.yourlifeandsoul.co.uk/counselling-addlestone" },
+  openGraph: {
+    title: "Counselling in Addlestone, Surrey | Your Life And Soul",
+    description: "Counselling for children, teens and adults in Addlestone, Surrey. BACP registered counsellor Lindsay Salmon. Free initial telephone consultation.",
+    type: "website",
+    url: "https://www.yourlifeandsoul.co.uk/counselling-addlestone",
+  },
+}
+
+const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.yourlifeandsoul.co.uk/counselling-addlestone",
+  name: "Your Life And Soul Counselling – Addlestone",
+  description: "Counselling for children, teens and adults in Addlestone, Surrey. BACP registered counsellor Lindsay Salmon.",
+  url: "https://www.yourlifeandsoul.co.uk/counselling-addlestone",
+  telephone: "",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Addlestone",
+    addressRegion: "Surrey",
+    addressCountry: "GB",
+  },
+  areaServed: [
+    { "@type": "City", name: "Addlestone" },
+    { "@type": "City", name: "Weybridge" },
+    { "@type": "City", name: "Chertsey" },
+  ],
+  priceRange: "££",
+  image: "https://www.yourlifeandsoul.co.uk/images/addlestone.jpg",
+  sameAs: ["https://www.instagram.com/navigatingndparenting/"],
 }
 
 export default function AddlestonePage() {
   return (
-    <LocalLandingPage
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+      />
+      <LocalLandingPage
       location="Addlestone"
       localImage="/images/addlestone.jpg"
       localImageAlt="The River Bourne winding through the Surrey countryside near Addlestone, flanked by bare winter trees and green grassy banks"
@@ -110,5 +155,6 @@ export default function AddlestonePage() {
         { label: "Counselling in Woking", href: "/counselling-woking" },
       ]}
     />
+    </>
   )
 }
